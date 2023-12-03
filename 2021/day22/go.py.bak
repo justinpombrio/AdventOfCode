@@ -1,0 +1,96 @@
+filename = "input.txt"
+
+instructions = []
+for line in open(filename, "r"):
+    outer = line.strip().split(" ")
+    if outer[0] == "on":
+        on = True
+    elif outer[0] == "off":
+        on = False
+    else:
+        raise "oops"
+    parts = outer[1].split(",")
+    x_parts = parts[0][2:].split("..")
+    y_parts = parts[1][2:].split("..")
+    z_parts = parts[2][2:].split("..")
+    x_range = int(x_parts[0]), int(x_parts[1])
+    y_range = int(y_parts[0]), int(y_parts[1])
+    z_range = int(z_parts[0]), int(z_parts[1])
+    instructions.append((on, x_range, y_range, z_range))
+
+def range_overlaps((a, b), (c, d)):
+    return not ((a > d and b > d) or (a < c and b < c))
+
+def range_len((a, b)):
+    return b + 1 - a
+
+def overlaps(cube1, cube2):
+    (_, xr1, yr1, zr1) = cube1
+    (_, xr2, yr2, zr2) = cube2
+    return (range_overlaps(xr1, xr2)
+            and range_overlaps(yr1, yr2)
+            and range_overlaps(zr1, zr2))
+
+cubes = []
+
+def insert(new_cube):
+    global cubes
+    (on, x, y, z) = new_cube
+    if on:
+        # subtract each cube from new_cube
+        fragments = [(x, y, z)]
+        for cube in cubes:
+            fragments = [new_frag 
+                         for frag in fragments
+                         for new_frag in subtract(frag, cube)]
+        cubes.extend(fragments)
+    else:
+        # subtract new_cube from each cube
+        cubes = [frag 
+                 for cube in cubes
+                 for frag in subtract(cube, (x, y, z))]
+
+# ALL RANGES ARE INCLUSIVE!
+
+# return (pos_ranges, neg_ranges)
+def subtract_range((x0, x1), (X0, X1)):
+    if X1 < x0 or x1 < X0:
+        return [(True, x0, x1)]
+    elif X0 <= x0 and x1 <= X1:
+        return [(False, x0, x1)]
+    elif X0 <= x0 and X1 < x1:
+        return [(True, X1+1, x1), (False, x0, X1)]
+    elif x0 < X0 and x1 <= X1:
+        return [(True, x0, X0-1), (False, X0, x1)]
+    elif x0 < X0 and X1 < x1:
+        return [(True, x0, X0-1), (False, X0, X1), (True, X1+1, x1)]
+    else:
+        raise "oops"
+
+def subtract(cube, neg_cube):
+    (xr, yr, zr) = cube
+    (Xr, Yr, Zr) = neg_cube
+    fragments = []
+    for (tx, x0, x1) in subtract_range(xr, Xr):
+        for (ty, y0, y1) in subtract_range(yr, Yr):
+            for (tz, z0, z1) in subtract_range(zr, Zr):
+                if tx or ty or tz:
+                    fragments.append(((x0, x1), (y0, y1), (z0, z1)))
+    return fragments
+
+def count_cubes():
+    count = 0
+    for cube in cubes:
+        (x, y, z) = cube
+        count += range_len(x) + range_len(y) + range_len(z)
+    return count
+
+for (i, new_cube) in enumerate(instructions):
+    print ""
+    print "instruction", i, new_cube
+    insert(new_cube)
+    print "count", count_cubes()
+    print "num cubes", len(cubes)
+
+count = count_cubes()
+print "final count", count

@@ -1,0 +1,56 @@
+import sys
+
+filename = "example.txt"
+
+grid = []
+for line in open(filename, "r"):
+  grid.append([int(ch) for ch in line.strip()])
+
+hw = len(grid[0])
+hh = len(grid)
+width = len(grid[0]) * 5
+height = len(grid) * 5
+
+def get(x, y):
+  return (grid[y % hh][x % hw] + (y / hh) + (x / hw)) % 10
+
+def neighbors(x, y):
+  return filter(is_valid, [(x-1,y), (x+1,y), (x,y-1), (x,y+1)])
+
+def is_valid((x, y)):
+  return x >= 0 and y >= 0 and x < width and y < height
+
+explored = {}
+frontier = {(0, 0): 0}
+while not len(frontier) == 0:
+  positions = [(x, y, frontier[(x, y)]) for (x, y) in frontier]
+  positions.sort(key = lambda (x, y, d): d)
+  (x, y, d) = positions[0]
+  del frontier[(x, y)]
+
+  print "explored", len(explored)
+  print "frontier", len(frontier)
+  # PROBLEM!!!
+  for (x, y, d) in positions:
+    print "ok"
+
+  for (x2, y2) in neighbors(x, y):
+    if (x2, y2) not in explored:
+      d2 = d + get(x2, y2)
+      if (x2, y2) in frontier:
+        frontier[(x2, y2)] = min(frontier[(x2, y2)], d2)
+      else:
+        frontier[(x2, y2)] = d2
+  explored[(x, y)] = d
+
+print grid
+print explored
+print "dist", explored[(width-1,height-1)]
+
+print "get", get(10, 10)
+
+for y in range(height):
+  for x in range(width):
+    d = get(x, y)
+    sys.stdout.write(str(d))
+  print ""
