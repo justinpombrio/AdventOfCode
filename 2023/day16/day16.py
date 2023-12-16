@@ -40,10 +40,6 @@ MIRRORS = {
     }
 }
 
-def display(grid):
-    for row in grid:
-        print("".join(row))
-
 def is_valid(grid, row, col):
     return row >= 0 and col >= 0 and row < len(grid) and col < len(grid[0])
 
@@ -57,16 +53,20 @@ def split_beam(grid, beam):
             yield(new_direction, new_row, new_col)
 
 def fill(grid, start_beam):
+    energy = set()
     beams = set()
     frontier = [start_beam]
     while len(frontier) > 0:
         beam = frontier.pop()
         if beam not in beams:
             beams.add(beam)
+            (_, row, col) = beam
+            energy.add((row, col))
         for beam in split_beam(grid, beam):
             if beam not in beams and beam not in frontier:
                 frontier.append(beam)
-    return beams
+    print("at", start_beam, "energy=", len(energy))
+    return len(energy)
 
 def beam_count(beams):
     return len({(row, col) for (_, row, col) in beams})
@@ -84,10 +84,5 @@ starting_options = (
     + [("U", height - 1, col) for col in range(width)]
 )
 
-display(grid)
-max_energy = 0
-for start in starting_options:
-    energy = beam_count(fill(grid, start))
-    max_energy = max(energy, max_energy)
-    print("energy:", energy)
+max_energy = max([fill(grid, start) for start in starting_options])
 print("Max energy:", max_energy)
