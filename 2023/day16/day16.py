@@ -1,78 +1,75 @@
 import sys
 
+DIRECTIONS = {
+    "R": (0, +1),
+    "L": (0, -1),
+    "U": (-1, 0),
+    "D": (+1, 0)
+}
+
+MIRRORS = {
+    ".": {
+        "R": "R",
+        "L": "L",
+        "D": "D",
+        "U": "U"
+    },
+    "\\": {
+        "R": "D",
+        "L": "U",
+        "D": "R",
+        "U": "L",
+    },
+    "/": {
+        "R": "U",
+        "L": "D",
+        "D": "L",
+        "U": "R",
+    },
+    "-": {
+        "R": "R",
+        "L": "L",
+        "D": "LR",
+        "U": "LR",
+    },
+    "|": {
+        "R": "UD",
+        "L": "UD",
+        "D": "D",
+        "U": "U",
+    }
+}
+
 def display(grid):
     for row in grid:
         print("".join(row))
 
-def valid(grid, beam):
-    (_, row, col) = beam
+def is_valid(grid, row, col):
     return row >= 0 and col >= 0 and row < len(grid) and col < len(grid[0])
 
-def next(grid, beam):
+def split_beam(grid, beam):
     (direction, row, col) = beam
     obj = grid[row][col]
-    if obj == ".":
-        if direction == "R":
-            return [("R", row, col + 1)]
-        elif direction == "L":
-            return [("L", row, col - 1)]
-        elif direction == "D":
-            return [("D", row + 1, col)]
-        elif direction == "U":
-            return [("U", row - 1, col)]
-    elif obj == "\\":
-        if direction == "R":
-            return [("D", row + 1, col)]
-        elif direction == "L":
-            return [("U", row - 1, col)]
-        elif direction == "D":
-            return [("R", row, col + 1)]
-        elif direction == "U":
-            return [("L", row, col - 1)]
-    elif obj == "/":
-        if direction == "R":
-            return [("U", row - 1, col)]
-        elif direction == "L":
-            return [("D", row + 1, col)]
-        elif direction == "D":
-            return [("L", row, col - 1)]
-        elif direction == "U":
-            return [("R", row, col + 1)]
-    elif obj == "-":
-        if direction == "R":
-            return [("R", row, col + 1)]
-        elif direction == "L":
-            return [("L", row, col - 1)]
-        elif direction == "D" or direction == "U":
-            return [("R", row, col + 1), ("L", row, col - 1)]
-    elif obj == "|":
-        if direction == "L" or direction == "R":
-            return [("U", row - 1, col), ("D", row + 1, col)]
-        elif direction == "D":
-            return [("D", row + 1, col)]
-        elif direction == "U":
-            return [("U", row - 1, col)]
-    raise "oops"
+    for new_direction in MIRRORS[obj][direction]:
+        (delta_row, delta_col) = DIRECTIONS[new_direction]
+        (new_row, new_col) = (row + delta_row, col + delta_col)
+        if is_valid(grid, new_row, new_col):
+            yield(new_direction, new_row, new_col)
 
-def fill(grid, start):
-    beams = {}
-    frontier = [start]
+def fill(grid, start_beam):
+    beams = set()
+    frontier = [start_beam]
     while len(frontier) > 0:
         beam = frontier.pop()
         if beam not in beams:
-            beams[beam] = 1
-        for beam in next(grid, beam):
-            if valid(grid, beam) and beam not in beams and beam not in frontier:
+            beams.add(beam)
+        for beam in split_beam(grid, beam):
+            if beam not in beams and beam not in frontier:
                 frontier.append(beam)
     return beams
 
-def energy(grid, start):
-    beams = fill(grid, start)
-    energy = {}
-    for beam in beams:
-        (_, row, col) = beam
-        energy[(row, col)] = 1
-    return len(energy)
+def beam_count(beams):
+    return len({(row, col) for (_, row, col) in beams})
 
 grid = []
 for line in open(sys.argv[1], 'r'):
@@ -90,7 +87,7 @@ starting_options = (
 display(grid)
 max_energy = 0
 for start in starting_options:
-    n = energy(grid, start)
-    max_energy = max(n, max_energy)
-    print("energy:", n)
+    energy = beam_count(fill(grid, start))
+    max_energy = max(energy, max_energy)
+    print("energy:", energy)
 print("Max energy:", max_energy)
