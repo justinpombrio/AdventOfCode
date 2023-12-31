@@ -16,16 +16,14 @@ boxes = [[] for _ in range(256)]
 for step in steps:
     if step.endswith("-"):
         label = step[:-1]
-        box_num = hash(label)
-        box = boxes[box_num]
+        box = boxes[hash(label)]
         for (i, (lens_label, lens_focal)) in enumerate(box):
             if lens_label == label:
                 del box[i]
     elif "=" in step:
         (label, focus) = step.split("=")
         focus = int(focus)
-        box_num = hash(label)
-        box = boxes[box_num]
+        box = boxes[hash(label)]
         for (i, (lens_label, lens_focal)) in enumerate(box):
             if lens_label == label:
                 box[i] = (label, focus)
