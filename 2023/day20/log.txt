@@ -1,0 +1,3910 @@
+ModSet {
+    name_to_module: {
+        "md": 58,
+        "vd": 49,
+        "tg": 10,
+        "gc": 52,
+        "rz": 21,
+        "mj": 15,
+        "cf": 1,
+        "broadcaster": 12,
+        "fs": 40,
+        "fm": 44,
+        "jf": 45,
+        "nd": 51,
+        "gp": 41,
+        "qz": 18,
+        "hf": 47,
+        "fh": 53,
+        "tz": 0,
+        "zm": 22,
+        "sj": 9,
+        "hc": 14,
+        "ft": 37,
+        "tx": 33,
+        "fd": 16,
+        "bp": 24,
+        "vn": 8,
+        "cn": 23,
+        "vp": 48,
+        "gq": 3,
+        "dn": 36,
+        "sq": 5,
+        "xn": 2,
+        "kc": 30,
+        "vf": 20,
+        "pc": 54,
+        "bd": 6,
+        "gn": 55,
+        "pm": 13,
+        "cb": 32,
+        "jx": 42,
+        "jb": 31,
+        "lm": 35,
+        "pn": 39,
+        "nb": 28,
+        "kx": 43,
+        "rx": 46,
+        "qg": 56,
+        "rp": 57,
+        "mc": 19,
+        "rn": 50,
+        "rk": 34,
+        "kn": 11,
+        "ff": 26,
+        "cp": 7,
+        "ks": 27,
+        "ll": 38,
+        "kr": 4,
+        "xf": 17,
+        "jj": 25,
+        "bm": 29,
+    },
+    modules: [
+        Mod {
+            op: FlipFlop,
+            dests: [
+                24,
+                41,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                0,
+            ],
+        },
+        Mod {
+            op: Conj,
+            dests: [
+                30,
+                31,
+                32,
+                10,
+                27,
+                33,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                2,
+                50,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                2,
+                3,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                37,
+            ],
+        },
+        Mod {
+            op: Conj,
+            dests: [
+                8,
+                5,
+                18,
+                37,
+                51,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                5,
+                6,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                6,
+                7,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                13,
+                29,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                32,
+                2,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                53,
+                24,
+            ],
+        },
+        Mod {
+            op: Broadcast,
+            dests: [
+                8,
+                9,
+                10,
+                11,
+            ],
+        },
+        Mod {
+            op: Conj,
+            dests: [
+                38,
+                19,
+                9,
+                49,
+                48,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                13,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                2,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                2,
+                15,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                6,
+                45,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                17,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                42,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                19,
+                13,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                14,
+                13,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                21,
+                13,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                6,
+                18,
+            ],
+        },
+        Mod {
+            op: Conj,
+            dests: [
+                1,
+                53,
+                54,
+                11,
+                40,
+                55,
+                35,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                24,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                2,
+                16,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                26,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                2,
+                27,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                13,
+                20,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                28,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                4,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                31,
+            ],
+        },
+        Mod {
+            op: Conj,
+            dests: [
+                47,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                24,
+                40,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                34,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                6,
+                23,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                36,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                22,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                13,
+                38,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                43,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                24,
+                57,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                58,
+                13,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                55,
+                24,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                6,
+                52,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                6,
+                44,
+            ],
+        },
+        Mod {
+            op: Noop,
+            dests: [],
+        },
+        Mod {
+            op: Conj,
+            dests: [
+                46,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                39,
+            ],
+        },
+        Mod {
+            op: Conj,
+            dests: [
+                47,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                30,
+                2,
+            ],
+        },
+        Mod {
+            op: Conj,
+            dests: [
+                47,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                56,
+                6,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                35,
+            ],
+        },
+        Mod {
+            op: Conj,
+            dests: [
+                47,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                1,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                6,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                24,
+                25,
+            ],
+        },
+        Mod {
+            op: FlipFlop,
+            dests: [
+                13,
+                48,
+            ],
+        },
+    ],
+}
+State {
+    modset: ModSet {
+        name_to_module: {
+            "md": 58,
+            "vd": 49,
+            "tg": 10,
+            "gc": 52,
+            "rz": 21,
+            "mj": 15,
+            "cf": 1,
+            "broadcaster": 12,
+            "fs": 40,
+            "fm": 44,
+            "jf": 45,
+            "nd": 51,
+            "gp": 41,
+            "qz": 18,
+            "hf": 47,
+            "fh": 53,
+            "tz": 0,
+            "zm": 22,
+            "sj": 9,
+            "hc": 14,
+            "ft": 37,
+            "tx": 33,
+            "fd": 16,
+            "bp": 24,
+            "vn": 8,
+            "cn": 23,
+            "vp": 48,
+            "gq": 3,
+            "dn": 36,
+            "sq": 5,
+            "xn": 2,
+            "kc": 30,
+            "vf": 20,
+            "pc": 54,
+            "bd": 6,
+            "gn": 55,
+            "pm": 13,
+            "cb": 32,
+            "jx": 42,
+            "jb": 31,
+            "lm": 35,
+            "pn": 39,
+            "nb": 28,
+            "kx": 43,
+            "rx": 46,
+            "qg": 56,
+            "rp": 57,
+            "mc": 19,
+            "rn": 50,
+            "rk": 34,
+            "kn": 11,
+            "ff": 26,
+            "cp": 7,
+            "ks": 27,
+            "ll": 38,
+            "kr": 4,
+            "xf": 17,
+            "jj": 25,
+            "bm": 29,
+        },
+        modules: [
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    24,
+                    41,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    0,
+                ],
+            },
+            Mod {
+                op: Conj,
+                dests: [
+                    30,
+                    31,
+                    32,
+                    10,
+                    27,
+                    33,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    2,
+                    50,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    2,
+                    3,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    37,
+                ],
+            },
+            Mod {
+                op: Conj,
+                dests: [
+                    8,
+                    5,
+                    18,
+                    37,
+                    51,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    5,
+                    6,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    6,
+                    7,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    13,
+                    29,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    32,
+                    2,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    53,
+                    24,
+                ],
+            },
+            Mod {
+                op: Broadcast,
+                dests: [
+                    8,
+                    9,
+                    10,
+                    11,
+                ],
+            },
+            Mod {
+                op: Conj,
+                dests: [
+                    38,
+                    19,
+                    9,
+                    49,
+                    48,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    13,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    2,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    2,
+                    15,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    6,
+                    45,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    17,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    42,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    19,
+                    13,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    14,
+                    13,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    21,
+                    13,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    6,
+                    18,
+                ],
+            },
+            Mod {
+                op: Conj,
+                dests: [
+                    1,
+                    53,
+                    54,
+                    11,
+                    40,
+                    55,
+                    35,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    24,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    2,
+                    16,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    26,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    2,
+                    27,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    13,
+                    20,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    28,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    4,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    31,
+                ],
+            },
+            Mod {
+                op: Conj,
+                dests: [
+                    47,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    24,
+                    40,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    34,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    6,
+                    23,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    36,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    22,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    13,
+                    38,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    43,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    24,
+                    57,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    58,
+                    13,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    55,
+                    24,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    6,
+                    52,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    6,
+                    44,
+                ],
+            },
+            Mod {
+                op: Noop,
+                dests: [],
+            },
+            Mod {
+                op: Conj,
+                dests: [
+                    46,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    39,
+                ],
+            },
+            Mod {
+                op: Conj,
+                dests: [
+                    47,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    30,
+                    2,
+                ],
+            },
+            Mod {
+                op: Conj,
+                dests: [
+                    47,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    56,
+                    6,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    35,
+                ],
+            },
+            Mod {
+                op: Conj,
+                dests: [
+                    47,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    1,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    6,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    24,
+                    25,
+                ],
+            },
+            Mod {
+                op: FlipFlop,
+                dests: [
+                    13,
+                    48,
+                ],
+            },
+        ],
+    },
+    low_count: 0,
+    high_count: 0,
+    pulses: [],
+    flip_flops: [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+    ],
+    conjs: [
+        [],
+        [],
+        [
+            (
+                3,
+                false,
+            ),
+            (
+                4,
+                false,
+            ),
+            (
+                10,
+                false,
+            ),
+            (
+                15,
+                false,
+            ),
+            (
+                16,
+                false,
+            ),
+            (
+                26,
+                false,
+            ),
+            (
+                28,
+                false,
+            ),
+            (
+                50,
+                false,
+            ),
+        ],
+        [],
+        [],
+        [],
+        [
+            (
+                7,
+                false,
+            ),
+            (
+                8,
+                false,
+            ),
+            (
+                17,
+                false,
+            ),
+            (
+                23,
+                false,
+            ),
+            (
+                36,
+                false,
+            ),
+            (
+                44,
+                false,
+            ),
+            (
+                45,
+                false,
+            ),
+            (
+                52,
+                false,
+            ),
+            (
+                56,
+                false,
+            ),
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            (
+                9,
+                false,
+            ),
+            (
+                14,
+                false,
+            ),
+            (
+                20,
+                false,
+            ),
+            (
+                21,
+                false,
+            ),
+            (
+                22,
+                false,
+            ),
+            (
+                29,
+                false,
+            ),
+            (
+                39,
+                false,
+            ),
+            (
+                42,
+                false,
+            ),
+            (
+                58,
+                false,
+            ),
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            (
+                0,
+                false,
+            ),
+            (
+                11,
+                false,
+            ),
+            (
+                25,
+                false,
+            ),
+            (
+                34,
+                false,
+            ),
+            (
+                41,
+                false,
+            ),
+            (
+                43,
+                false,
+            ),
+            (
+                57,
+                false,
+            ),
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            (
+                2,
+                false,
+            ),
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            (
+                33,
+                false,
+            ),
+            (
+                49,
+                false,
+            ),
+            (
+                51,
+                false,
+            ),
+            (
+                54,
+                false,
+            ),
+        ],
+        [],
+        [
+            (
+                13,
+                false,
+            ),
+        ],
+        [],
+        [
+            (
+                6,
+                false,
+            ),
+        ],
+        [],
+        [],
+        [
+            (
+                24,
+                false,
+            ),
+        ],
+        [],
+        [],
+        [],
+        [],
+    ],
+}
+Iteration: 0
+State dump:
+STATE DUMP
+  Low:  0
+  High: 0
+  Flip flops: 000000000000000000000000000000000000000000000000
+  Conjunctions:
+    * 00000000
+    * 000000000
+    * 000000000
+    * 0000000
+    * 0
+    * 0000
+    * 0
+    * 0
+    * 0
+
+Iteration: 10000000
+Iteration: 20000000
+Iteration: 30000000
+Iteration: 40000000
+Iteration: 50000000
+Iteration: 60000000
+Iteration: 70000000
+Iteration: 80000000
+Iteration: 90000000
+Iteration: 100000000
+State dump:
+STATE DUMP
+  Low:  1780035843
+  High: 4565947165
+  Flip flops: 001110100000010001011110111010110100010011111100
+  Conjunctions:
+    * 11000101
+    * 011110011
+    * 000101100
+    * 0011010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 110000000
+Iteration: 120000000
+Iteration: 130000000
+Iteration: 140000000
+Iteration: 150000000
+Iteration: 160000000
+Iteration: 170000000
+Iteration: 180000000
+Iteration: 190000000
+Iteration: 200000000
+State dump:
+STATE DUMP
+  Low:  3560071766
+  High: 9131894478
+  Flip flops: 111111100110111010000101010010001100010101010100
+  Conjunctions:
+    * 11001111
+    * 111000101
+    * 011000100
+    * 1101010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 210000000
+Iteration: 220000000
+Iteration: 230000000
+Iteration: 240000000
+Iteration: 250000000
+Iteration: 260000000
+Iteration: 270000000
+Iteration: 280000000
+Iteration: 290000000
+Iteration: 300000000
+State dump:
+STATE DUMP
+  Low:  5340107674
+  High: 13697841754
+  Flip flops: 001000100111011011101100111001100011001011100000
+  Conjunctions:
+    * 10010101
+    * 011011010
+    * 011111000
+    * 0110100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 310000000
+Iteration: 320000000
+Iteration: 330000000
+Iteration: 340000000
+Iteration: 350000000
+Iteration: 360000000
+Iteration: 370000000
+Iteration: 380000000
+Iteration: 390000000
+Iteration: 400000000
+State dump:
+STATE DUMP
+  Low:  7120143604
+  High: 18263789071
+  Flip flops: 101001110001111001000011010001110011101111011000
+  Conjunctions:
+    * 10011011
+    * 111011100
+    * 100100010
+    * 1000100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 410000000
+Iteration: 420000000
+Iteration: 430000000
+Iteration: 440000000
+Iteration: 450000000
+Iteration: 460000000
+Iteration: 470000000
+Iteration: 480000000
+Iteration: 490000000
+Iteration: 500000000
+State dump:
+STATE DUMP
+  Low:  8900179535
+  High: 22829736401
+  Flip flops: 111010111010011000011101100100001001100001001000
+  Conjunctions:
+    * 10100111
+    * 011100000
+    * 110001010
+    * 1010100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 510000000
+Iteration: 520000000
+Iteration: 530000000
+Iteration: 540000000
+Iteration: 550000000
+Iteration: 560000000
+Iteration: 570000000
+Iteration: 580000000
+Iteration: 590000000
+Iteration: 600000000
+State dump:
+STATE DUMP
+  Low:  10680215440
+  High: 27395683689
+  Flip flops: 100101011110110011010100001100001100100111100110
+  Conjunctions:
+    * 01101101
+    * 101100111
+    * 111100110
+    * 1100001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 610000000
+Iteration: 620000000
+Iteration: 630000000
+Iteration: 640000000
+Iteration: 650000000
+Iteration: 660000000
+Iteration: 670000000
+Iteration: 680000000
+Iteration: 690000000
+Iteration: 700000000
+State dump:
+STATE DUMP
+  Low:  12460251359
+  High: 31961630991
+  Flip flops: 100110001101010000111011000110011100011011011111
+  Conjunctions:
+    * 01110011
+    * 001101001
+    * 000010101
+    * 1111011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 710000000
+Iteration: 720000000
+Iteration: 730000000
+Iteration: 740000000
+Iteration: 750000000
+Iteration: 760000000
+Iteration: 770000000
+Iteration: 780000000
+Iteration: 790000000
+Iteration: 800000000
+State dump:
+STATE DUMP
+  Low:  14240287282
+  High: 36527578299
+  Flip flops: 010011001011110000010010101111100101011101100011
+  Conjunctions:
+    * 00111001
+    * 101111110
+    * 010001101
+    * 0001111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 810000000
+Iteration: 820000000
+Iteration: 830000000
+Iteration: 840000000
+Iteration: 850000000
+Iteration: 860000000
+Iteration: 870000000
+Iteration: 880000000
+Iteration: 890000000
+Iteration: 900000000
+State dump:
+STATE DUMP
+  Low:  16020323210
+  High: 41093525605
+  Flip flops: 100100000010011011001011010101001011000011110011
+  Conjunctions:
+    * 01000011
+    * 001000010
+    * 011100001
+    * 1010101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 910000000
+Iteration: 920000000
+Iteration: 930000000
+Iteration: 940000000
+Iteration: 950000000
+Iteration: 960000000
+Iteration: 970000000
+Iteration: 980000000
+Iteration: 990000000
+Iteration: 1000000000
+State dump:
+STATE DUMP
+  Low:  17800359139
+  High: 45659472927
+  Flip flops: 000001010100111110101010111101011010000111011001
+  Conjunctions:
+    * 00001001
+    * 101000100
+    * 101011001
+    * 0110000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1010000000
+Iteration: 1020000000
+Iteration: 1030000000
+Iteration: 1040000000
+Iteration: 1050000000
+Iteration: 1060000000
+Iteration: 1070000000
+Iteration: 1080000000
+Iteration: 1090000000
+Iteration: 1100000000
+State dump:
+STATE DUMP
+  Low:  19580395062
+  High: 50225420250
+  Flip flops: 110011110011010000000001010110000010101001100101
+  Conjunctions:
+    * 00010011
+    * 111001011
+    * 110000011
+    * 1001000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1110000000
+Iteration: 1120000000
+Iteration: 1130000000
+Iteration: 1140000000
+Iteration: 1150000000
+Iteration: 1160000000
+Iteration: 1170000000
+Iteration: 1180000000
+Iteration: 1190000000
+Iteration: 1200000000
+State dump:
+STATE DUMP
+  Low:  21360430958
+  High: 54791367508
+  Flip flops: 001100110011110001001000111100100101101110010101
+  Conjunctions:
+    * 11011000
+    * 011011101
+    * 110101111
+    * 0010100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1210000000
+Iteration: 1220000000
+Iteration: 1230000000
+Iteration: 1240000000
+Iteration: 1250000000
+Iteration: 1260000000
+Iteration: 1270000000
+Iteration: 1280000000
+Iteration: 1290000000
+Iteration: 1300000000
+State dump:
+STATE DUMP
+  Low:  23140466913
+  High: 59357314882
+  Flip flops: 100001101100010110100010100000110101100011011101
+  Conjunctions:
+    * 00100001
+    * 111010001
+    * 001011111
+    * 1100100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1310000000
+Iteration: 1320000000
+Iteration: 1330000000
+Iteration: 1340000000
+Iteration: 1350000000
+Iteration: 1360000000
+Iteration: 1370000000
+Iteration: 1380000000
+Iteration: 1390000000
+Iteration: 1400000000
+State dump:
+STATE DUMP
+  Low:  24920502812
+  High: 63923262141
+  Flip flops: 111110101100110001111001001011001101010110100000
+  Conjunctions:
+    * 11101010
+    * 011100110
+    * 000110100
+    * 1111110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1410000000
+Iteration: 1420000000
+Iteration: 1430000000
+Iteration: 1440000000
+Iteration: 1450000000
+Iteration: 1460000000
+Iteration: 1470000000
+Iteration: 1480000000
+Iteration: 1490000000
+Iteration: 1500000000
+State dump:
+STATE DUMP
+  Low:  26700538745
+  High: 68489209475
+  Flip flops: 011111101011010001010000100011010100011000011010
+  Conjunctions:
+    * 11110000
+    * 111101000
+    * 010101100
+    * 0001011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1510000000
+Iteration: 1520000000
+Iteration: 1530000000
+Iteration: 1540000000
+Iteration: 1550000000
+Iteration: 1560000000
+Iteration: 1570000000
+Iteration: 1580000000
+Iteration: 1590000000
+Iteration: 1600000000
+State dump:
+STATE DUMP
+  Low:  28480574642
+  High: 73055156730
+  Flip flops: 101010011001001110111111001010010110001100101110
+  Conjunctions:
+    * 10110110
+    * 000101111
+    * 101010100
+    * 1011001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1610000000
+Iteration: 1620000000
+Iteration: 1630000000
+Iteration: 1640000000
+Iteration: 1650000000
+Iteration: 1660000000
+Iteration: 1670000000
+Iteration: 1680000000
+Iteration: 1690000000
+Iteration: 1700000000
+State dump:
+STATE DUMP
+  Low:  30260610583
+  High: 77621104074
+  Flip flops: 011111010100001111110000110010101011000010100110
+  Conjunctions:
+    * 11000000
+    * 100110011
+    * 101111000
+    * 0101101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1710000000
+Iteration: 1720000000
+Iteration: 1730000000
+Iteration: 1740000000
+Iteration: 1750000000
+Iteration: 1760000000
+Iteration: 1770000000
+Iteration: 1780000000
+Iteration: 1790000000
+Iteration: 1800000000
+State dump:
+STATE DUMP
+  Low:  32040646501
+  High: 82187051372
+  Flip flops: 101000010110010001001111011000000001100100010110
+  Conjunctions:
+    * 10000110
+    * 001000101
+    * 110100010
+    * 1110101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1810000000
+Iteration: 1820000000
+Iteration: 1830000000
+Iteration: 1840000000
+Iteration: 1850000000
+Iteration: 1860000000
+Iteration: 1870000000
+Iteration: 1880000000
+Iteration: 1890000000
+Iteration: 1900000000
+State dump:
+STATE DUMP
+  Low:  33820682441
+  High: 86752998714
+  Flip flops: 001001000000110110101110010001010000101000101000
+  Conjunctions:
+    * 10001100
+    * 101001010
+    * 001010010
+    * 0010000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 1910000000
+Iteration: 1920000000
+Iteration: 1930000000
+Iteration: 1940000000
+Iteration: 1950000000
+Iteration: 1960000000
+Iteration: 1970000000
+Iteration: 1980000000
+Iteration: 1990000000
+Iteration: 2000000000
+State dump:
+STATE DUMP
+  Low:  35600718349
+  High: 91318945995
+  Flip flops: 110110000101010111100101111001100100101110000000
+  Conjunctions:
+    * 01010110
+    * 001011100
+    * 001111110
+    * 1100000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2010000000
+Iteration: 2020000000
+Iteration: 2030000000
+Iteration: 2040000000
+Iteration: 2050000000
+Iteration: 2060000000
+Iteration: 2070000000
+Iteration: 2080000000
+Iteration: 2090000000
+Iteration: 2100000000
+State dump:
+STATE DUMP
+  Low:  37380754259
+  High: 95884893286
+  Flip flops: 110111000111110000101100010011111100010000011001
+  Conjunctions:
+    * 01011100
+    * 101010000
+    * 010010101
+    * 1111010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2110000000
+Iteration: 2120000000
+Iteration: 2130000000
+Iteration: 2140000000
+Iteration: 2150000000
+Iteration: 2160000000
+Iteration: 2170000000
+Iteration: 2180000000
+Iteration: 2190000000
+Iteration: 2200000000
+State dump:
+STATE DUMP
+  Low:  39160790195
+  High: 100450840620
+  Flip flops: 100101111000001100000110100100111111010100100101
+  Conjunctions:
+    * 01100100
+    * 110010111
+    * 100001101
+    * 1000110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2210000000
+Iteration: 2220000000
+Iteration: 2230000000
+Iteration: 2240000000
+Iteration: 2250000000
+Iteration: 2260000000
+Iteration: 2270000000
+Iteration: 2280000000
+Iteration: 2290000000
+Iteration: 2300000000
+State dump:
+STATE DUMP
+  Low:  40940826098
+  High: 105016787892
+  Flip flops: 110010111000101111111101001110000011001010010101
+  Conjunctions:
+    * 00101110
+    * 010101001
+    * 101110001
+    * 1011100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2310000000
+Iteration: 2320000000
+Iteration: 2330000000
+Iteration: 2340000000
+Iteration: 2350000000
+Iteration: 2360000000
+Iteration: 2370000000
+Iteration: 2380000000
+Iteration: 2390000000
+Iteration: 2400000000
+State dump:
+STATE DUMP
+  Low:  42720862018
+  High: 109582735203
+  Flip flops: 010011111111001110110100100110011010001100111011
+  Conjunctions:
+    * 00110100
+    * 110101110
+    * 111011001
+    * 0101001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2410000000
+Iteration: 2420000000
+Iteration: 2430000000
+Iteration: 2440000000
+Iteration: 2450000000
+Iteration: 2460000000
+Iteration: 2470000000
+Iteration: 2480000000
+Iteration: 2490000000
+Iteration: 2500000000
+State dump:
+STATE DUMP
+  Low:  44500897938
+  High: 114148682499
+  Flip flops: 101100101101101100011010111101111000100001101011
+  Conjunctions:
+    * 11111001
+    * 010110010
+    * 000001011
+    * 1110001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2510000000
+Iteration: 2520000000
+Iteration: 2530000000
+Iteration: 2540000000
+Iteration: 2550000000
+Iteration: 2560000000
+Iteration: 2570000000
+Iteration: 2580000000
+Iteration: 2590000000
+Iteration: 2600000000
+State dump:
+STATE DUMP
+  Low:  46280933890
+  High: 118714629863
+  Flip flops: 010001100000010111000100010101001101100110010011
+  Conjunctions:
+    * 00000100
+    * 111000100
+    * 001100111
+    * 0000101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2610000000
+Iteration: 2620000000
+Iteration: 2630000000
+Iteration: 2640000000
+Iteration: 2650000000
+Iteration: 2660000000
+Iteration: 2670000000
+Iteration: 2680000000
+Iteration: 2690000000
+Iteration: 2700000000
+State dump:
+STATE DUMP
+  Low:  48060969771
+  High: 123280577098
+  Flip flops: 011100000010101110101011101100000111111001101111
+  Conjunctions:
+    * 11001011
+    * 000001011
+    * 011011111
+    * 0010111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2710000000
+Iteration: 2720000000
+Iteration: 2730000000
+Iteration: 2740000000
+Iteration: 2750000000
+Iteration: 2760000000
+Iteration: 2770000000
+Iteration: 2780000000
+Iteration: 2790000000
+Iteration: 2800000000
+State dump:
+STATE DUMP
+  Low:  49841005723
+  High: 127846524466
+  Flip flops: 001101010101001100001010000100010110011111000100
+  Conjunctions:
+    * 11010001
+    * 100001101
+    * 100000100
+    * 0110010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2810000000
+Iteration: 2820000000
+Iteration: 2830000000
+Iteration: 2840000000
+Iteration: 2850000000
+Iteration: 2860000000
+Iteration: 2870000000
+Iteration: 2880000000
+Iteration: 2890000000
+Iteration: 2900000000
+State dump:
+STATE DUMP
+  Low:  51621041642
+  High: 132412471765
+  Flip flops: 101010010001101101000001101100101110010001011100
+  Conjunctions:
+    * 10011011
+    * 000010001
+    * 100101100
+    * 1000010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 2910000000
+Iteration: 2920000000
+Iteration: 2930000000
+Iteration: 2940000000
+Iteration: 2950000000
+Iteration: 2960000000
+Iteration: 2970000000
+Iteration: 2980000000
+Iteration: 2990000000
+Iteration: 3000000000
+State dump:
+STATE DUMP
+  Low:  53401077553
+  High: 136978419047
+  Flip flops: 111111011010001110101010010011110010000111101000
+  Conjunctions:
+    * 11100001
+    * 100010110
+    * 111010000
+    * 1011000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3010000000
+Iteration: 3020000000
+Iteration: 3030000000
+Iteration: 3040000000
+Iteration: 3050000000
+Iteration: 3060000000
+Iteration: 3070000000
+Iteration: 3080000000
+Iteration: 3090000000
+Iteration: 3100000000
+State dump:
+STATE DUMP
+  Low:  55181113501
+  High: 141544366406
+  Flip flops: 101000001100101100010001011011010011101011000000
+  Conjunctions:
+    * 10101011
+    * 000101000
+    * 000000010
+    * 1101100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3110000000
+Iteration: 3120000000
+Iteration: 3130000000
+Iteration: 3140000000
+Iteration: 3150000000
+Iteration: 3160000000
+Iteration: 3170000000
+Iteration: 3180000000
+Iteration: 3190000000
+Iteration: 3200000000
+State dump:
+STATE DUMP
+  Low:  56961149389
+  High: 146110313658
+  Flip flops: 111010101101000101011000110001001001101101110100
+  Conjunctions:
+    * 10110001
+    * 010101111
+    * 000101010
+    * 1110100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3210000000
+Iteration: 3220000000
+Iteration: 3230000000
+Iteration: 3240000000
+Iteration: 3250000000
+Iteration: 3260000000
+Iteration: 3270000000
+Iteration: 3280000000
+Iteration: 3290000000
+Iteration: 3300000000
+State dump:
+STATE DUMP
+  Low:  58741185307
+  High: 150676260959
+  Flip flops: 010111101011000110010111011010011100100011101110
+  Conjunctions:
+    * 01110111
+    * 110100011
+    * 011000110
+    * 0001001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3310000000
+Iteration: 3320000000
+Iteration: 3330000000
+Iteration: 3340000000
+Iteration: 3350000000
+Iteration: 3360000000
+Iteration: 3370000000
+Iteration: 3380000000
+Iteration: 3390000000
+Iteration: 3400000000
+State dump:
+STATE DUMP
+  Low:  60521221235
+  High: 155242208286
+  Flip flops: 101000100010000111111001100000110110110101010110
+  Conjunctions:
+    * 10000011
+    * 010110101
+    * 011111110
+    * 1010011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3410000000
+Iteration: 3420000000
+Iteration: 3430000000
+Iteration: 3440000000
+Iteration: 3450000000
+Iteration: 3460000000
+Iteration: 3470000000
+Iteration: 3480000000
+Iteration: 3490000000
+Iteration: 3500000000
+State dump:
+STATE DUMP
+  Low:  62301257175
+  High: 159808155623
+  Flip flops: 000101110100101101000000001000000111011001111011
+  Conjunctions:
+    * 01001001
+    * 110001010
+    * 100100101
+    * 0100111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3510000000
+Iteration: 3520000000
+Iteration: 3530000000
+Iteration: 3540000000
+Iteration: 3550000000
+Iteration: 3560000000
+Iteration: 3570000000
+Iteration: 3580000000
+Iteration: 3590000000
+Iteration: 3600000000
+State dump:
+STATE DUMP
+  Low:  64081293066
+  High: 164374102861
+  Flip flops: 010110110110101100001111100011011011001111001011
+  Conjunctions:
+    * 01001111
+    * 010001100
+    * 110001001
+    * 0111101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3610000000
+Iteration: 3620000000
+Iteration: 3630000000
+Iteration: 3640000000
+Iteration: 3650000000
+Iteration: 3660000000
+Iteration: 3670000000
+Iteration: 3680000000
+Iteration: 3690000000
+Iteration: 3700000000
+State dump:
+STATE DUMP
+  Low:  65861329005
+  High: 168940050211
+  Flip flops: 000011110011001111101110001011100010000001010001
+  Conjunctions:
+    * 00010101
+    * 110010000
+    * 111110001
+    * 0011000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3710000000
+Iteration: 3720000000
+Iteration: 3730000000
+Iteration: 3740000000
+Iteration: 3750000000
+Iteration: 3760000000
+Iteration: 3770000000
+Iteration: 3780000000
+Iteration: 3790000000
+Iteration: 3800000000
+State dump:
+STATE DUMP
+  Low:  67641364931
+  High: 173505997531
+  Flip flops: 100010000101100101000101000011100010100101111101
+  Conjunctions:
+    * 00011111
+    * 000010111
+    * 000100011
+    * 1101000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3810000000
+Iteration: 3820000000
+Iteration: 3830000000
+Iteration: 3840000000
+Iteration: 3850000000
+Iteration: 3860000000
+Iteration: 3870000000
+Iteration: 3880000000
+Iteration: 3890000000
+Iteration: 3900000000
+State dump:
+STATE DUMP
+  Low:  69421400844
+  High: 178071944821
+  Flip flops: 110011001110000100001110110110110100101011001101
+  Conjunctions:
+    * 00100101
+    * 100011001
+    * 010001111
+    * 1111000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 3910000000
+Iteration: 3920000000
+Iteration: 3930000000
+Iteration: 3940000000
+Iteration: 3950000000
+Iteration: 3960000000
+Iteration: 3970000000
+Iteration: 3980000000
+Iteration: 3990000000
+Iteration: 4000000000
+State dump:
+STATE DUMP
+  Low:  71201436761
+  High: 182637892118
+  Flip flops: 101100001010100111010101011110011101101100110001
+  Conjunctions:
+    * 11101110
+    * 000101110
+    * 011100111
+    * 1001100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4010000000
+Iteration: 4020000000
+Iteration: 4030000000
+Iteration: 4040000000
+Iteration: 4050000000
+Iteration: 4060000000
+Iteration: 4070000000
+Iteration: 4080000000
+Iteration: 4090000000
+Iteration: 4100000000
+State dump:
+STATE DUMP
+  Low:  72981472684
+  High: 187203839428
+  Flip flops: 101101011001000010111100110101101111010010101000
+  Conjunctions:
+    * 11110100
+    * 100110010
+    * 101011100
+    * 1010110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4110000000
+Iteration: 4120000000
+Iteration: 4130000000
+Iteration: 4140000000
+Iteration: 4150000000
+Iteration: 4160000000
+Iteration: 4170000000
+Iteration: 4180000000
+Iteration: 4190000000
+Iteration: 4200000000
+State dump:
+STATE DUMP
+  Low:  74761508611
+  High: 191769786740
+  Flip flops: 011010011111100100010011011101110110010100000010
+  Conjunctions:
+    * 10111010
+    * 000110100
+    * 110000100
+    * 0100011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4210000000
+Iteration: 4220000000
+Iteration: 4230000000
+Iteration: 4240000000
+Iteration: 4250000000
+Iteration: 4260000000
+Iteration: 4270000000
+Iteration: 4280000000
+Iteration: 4290000000
+Iteration: 4300000000
+State dump:
+STATE DUMP
+  Low:  76541544507
+  High: 196335734003
+  Flip flops: 101100110110011101011101100111111010000110110110
+  Conjunctions:
+    * 11000110
+    * 011110111
+    * 110101000
+    * 1111001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4310000000
+Iteration: 4320000000
+Iteration: 4330000000
+Iteration: 4340000000
+Iteration: 4350000000
+Iteration: 4360000000
+Iteration: 4370000000
+Iteration: 4380000000
+Iteration: 4390000000
+Iteration: 4400000000
+State dump:
+STATE DUMP
+  Low:  78321580462
+  High: 200901681376
+  Flip flops: 001001100000100010100100101100001001111110001110
+  Conjunctions:
+    * 10001100
+    * 110001101
+    * 001011010
+    * 0000111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4410000000
+Iteration: 4420000000
+Iteration: 4430000000
+Iteration: 4440000000
+Iteration: 4450000000
+Iteration: 4460000000
+Iteration: 4470000000
+Iteration: 4480000000
+Iteration: 4490000000
+Iteration: 4500000000
+State dump:
+STATE DUMP
+  Low:  80101616376
+  High: 205467628664
+  Flip flops: 011010100011000100001011000110010001100000011110
+  Conjunctions:
+    * 10010010
+    * 010000001
+    * 010000010
+    * 0011101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4510000000
+Iteration: 4520000000
+Iteration: 4530000000
+Iteration: 4540000000
+Iteration: 4550000000
+Iteration: 4560000000
+Iteration: 4570000000
+Iteration: 4580000000
+Iteration: 4590000000
+Iteration: 4600000000
+State dump:
+STATE DUMP
+  Low:  81881652289
+  High: 210033575966
+  Flip flops: 000111100111100101001010101110100100100110110000
+  Conjunctions:
+    * 01011000
+    * 110010110
+    * 010101110
+    * 0111000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4610000000
+Iteration: 4620000000
+Iteration: 4630000000
+Iteration: 4640000000
+Iteration: 4650000000
+Iteration: 4660000000
+Iteration: 4670000000
+Iteration: 4680000000
+Iteration: 4690000000
+Iteration: 4700000000
+State dump:
+STATE DUMP
+  Low:  83661688247
+  High: 214599523338
+  Flip flops: 101000111000000010110011010011000100001010001001
+  Conjunctions:
+    * 10100010
+    * 010101000
+    * 101010101
+    * 1001000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4710000000
+Iteration: 4720000000
+Iteration: 4730000000
+Iteration: 4740000000
+Iteration: 4750000000
+Iteration: 4760000000
+Iteration: 4770000000
+Iteration: 4780000000
+Iteration: 4790000000
+Iteration: 4800000000
+State dump:
+STATE DUMP
+  Low:  85441724116
+  High: 219165470541
+  Flip flops: 110111011000111011101010111001111110011000110101
+  Conjunctions:
+    * 01101000
+    * 101011011
+    * 101111101
+    * 1010010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4810000000
+Iteration: 4820000000
+Iteration: 4830000000
+Iteration: 4840000000
+Iteration: 4850000000
+Iteration: 4860000000
+Iteration: 4870000000
+Iteration: 4880000000
+Iteration: 4890000000
+Iteration: 4900000000
+State dump:
+STATE DUMP
+  Low:  87221760050
+  High: 223731417873
+  Flip flops: 010100011111011101010001010001010011011110011101
+  Conjunctions:
+    * 01110010
+    * 001101101
+    * 110100001
+    * 0100110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 4910000000
+Iteration: 4920000000
+Iteration: 4930000000
+Iteration: 4940000000
+Iteration: 4950000000
+Iteration: 4960000000
+Iteration: 4970000000
+Iteration: 4980000000
+Iteration: 4990000000
+Iteration: 5000000000
+State dump:
+STATE DUMP
+  Low:  89001795978
+  High: 228297365202
+  Flip flops: 100001001101111010111000011000100001110010001101
+  Conjunctions:
+    * 00111000
+    * 101110001
+    * 001010011
+    * 1110110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5010000000
+Iteration: 5020000000
+Iteration: 5030000000
+Iteration: 5040000000
+Iteration: 5050000000
+Iteration: 5060000000
+Iteration: 5070000000
+Iteration: 5080000000
+Iteration: 5090000000
+Iteration: 5100000000
+State dump:
+STATE DUMP
+  Low:  90781831914
+  High: 232863312528
+  Flip flops: 010110000000011011110010100000111000110100110011
+  Conjunctions:
+    * 01000000
+    * 001110110
+    * 001111011
+    * 0000011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5110000000
+Iteration: 5120000000
+Iteration: 5130000000
+Iteration: 5140000000
+Iteration: 5150000000
+Iteration: 5160000000
+Iteration: 5170000000
+Iteration: 5180000000
+Iteration: 5190000000
+Iteration: 5200000000
+State dump:
+STATE DUMP
+  Low:  92561867826
+  High: 237429259820
+  Flip flops: 100011000010100100101001001011001100101110000011
+  Conjunctions:
+    * 00001010
+    * 100001100
+    * 010010111
+    * 1011001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5210000000
+Iteration: 5220000000
+Iteration: 5230000000
+Iteration: 5240000000
+Iteration: 5250000000
+Iteration: 5260000000
+Iteration: 5270000000
+Iteration: 5280000000
+Iteration: 5290000000
+Iteration: 5300000000
+State dump:
+STATE DUMP
+  Low:  94341903781
+  High: 241995207190
+  Flip flops: 000000010101000000100000100011100001000000001010
+  Conjunctions:
+    * 00010000
+    * 000010000
+    * 100011000
+    * 0101101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5310000000
+Iteration: 5320000000
+Iteration: 5330000000
+Iteration: 5340000000
+Iteration: 5350000000
+Iteration: 5360000000
+Iteration: 5370000000
+Iteration: 5380000000
+Iteration: 5390000000
+Iteration: 5400000000
+State dump:
+STATE DUMP
+  Low:  96121939635
+  High: 246561154365
+  Flip flops: 011110110101011011101110011001010111010011110110
+  Conjunctions:
+    * 11010101
+    * 011000011
+    * 101110100
+    * 0110111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5410000000
+Iteration: 5420000000
+Iteration: 5430000000
+Iteration: 5440000000
+Iteration: 5450000000
+Iteration: 5460000000
+Iteration: 5470000000
+Iteration: 5480000000
+Iteration: 5490000000
+Iteration: 5500000000
+State dump:
+STATE DUMP
+  Low:  97901975573
+  High: 251127101710
+  Flip flops: 111111111010011010100000101110101111010101001110
+  Conjunctions:
+    * 11100001
+    * 111010101
+    * 111011100
+    * 1001111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5510000000
+Iteration: 5520000000
+Iteration: 5530000000
+Iteration: 5540000000
+Iteration: 5550000000
+Iteration: 5560000000
+Iteration: 5570000000
+Iteration: 5580000000
+Iteration: 5590000000
+Iteration: 5600000000
+State dump:
+STATE DUMP
+  Low:  99682011521
+  High: 255693049072
+  Flip flops: 101100101100011000010111100110001110111001100000
+  Conjunctions:
+    * 11100111
+    * 011101010
+    * 000001110
+    * 1101010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5610000000
+Iteration: 5620000000
+Iteration: 5630000000
+Iteration: 5640000000
+Iteration: 5650000000
+Iteration: 5660000000
+Iteration: 5670000000
+Iteration: 5680000000
+Iteration: 5690000000
+Iteration: 5700000000
+State dump:
+STATE DUMP
+  Low:  101462047420
+  High: 260258996333
+  Flip flops: 111001101100111011111110001100010000111111010000
+  Conjunctions:
+    * 10101101
+    * 111101100
+    * 001110010
+    * 1110010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5710000000
+Iteration: 5720000000
+Iteration: 5730000000
+Iteration: 5740000000
+Iteration: 5750000000
+Iteration: 5760000000
+Iteration: 5770000000
+Iteration: 5780000000
+Iteration: 5790000000
+Iteration: 5800000000
+State dump:
+STATE DUMP
+  Low:  103242083351
+  High: 264824943659
+  Flip flops: 011010101011011010110101100101101001110001001000
+  Conjunctions:
+    * 10110111
+    * 011110000
+    * 011011010
+    * 0000110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5810000000
+Iteration: 5820000000
+Iteration: 5830000000
+Iteration: 5840000000
+Iteration: 5850000000
+Iteration: 5860000000
+Iteration: 5870000000
+Iteration: 5880000000
+Iteration: 5890000000
+Iteration: 5900000000
+State dump:
+STATE DUMP
+  Low:  105022119257
+  High: 269390890939
+  Flip flops: 100101011001110000011100001111101001000101111101
+  Conjunctions:
+    * 01111101
+    * 101110111
+    * 100000001
+    * 1011100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 5910000000
+Iteration: 5920000000
+Iteration: 5930000000
+Iteration: 5940000000
+Iteration: 5950000000
+Iteration: 5960000000
+Iteration: 5970000000
+Iteration: 5980000000
+Iteration: 5990000000
+Iteration: 6000000000
+State dump:
+STATE DUMP
+  Low:  106802155192
+  High: 273956838271
+  Flip flops: 011010010100010001010101110111111100001011010111
+  Conjunctions:
+    * 10000111
+    * 001111001
+    * 100101101
+    * 0101001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6010000000
+Iteration: 6020000000
+Iteration: 6030000000
+Iteration: 6040000000
+Iteration: 6050000000
+Iteration: 6060000000
+Iteration: 6070000000
+Iteration: 6080000000
+Iteration: 6090000000
+Iteration: 6100000000
+State dump:
+STATE DUMP
+  Low:  108582191095
+  High: 278522785545
+  Flip flops: 010111010110111010101100011110000110011101101011
+  Conjunctions:
+    * 01001101
+    * 101001110
+    * 111010101
+    * 0111011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6110000000
+Iteration: 6120000000
+Iteration: 6130000000
+Iteration: 6140000000
+Iteration: 6150000000
+Iteration: 6160000000
+Iteration: 6170000000
+Iteration: 6180000000
+Iteration: 6190000000
+Iteration: 6200000000
+State dump:
+STATE DUMP
+  Low:  110362227048
+  High: 283088732909
+  Flip flops: 000100000001011000000011010110100111110001110011
+  Conjunctions:
+    * 01010011
+    * 001010010
+    * 000000111
+    * 0001111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6210000000
+Iteration: 6220000000
+Iteration: 6230000000
+Iteration: 6240000000
+Iteration: 6250000000
+Iteration: 6260000000
+Iteration: 6270000000
+Iteration: 6280000000
+Iteration: 6290000000
+Iteration: 6300000000
+State dump:
+STATE DUMP
+  Low:  112142262943
+  High: 287654680157
+  Flip flops: 010001000001111001001010111101111001110111000011
+  Conjunctions:
+    * 00011001
+    * 101010100
+    * 000101011
+    * 0010111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6310000000
+Iteration: 6320000000
+Iteration: 6330000000
+Iteration: 6340000000
+Iteration: 6350000000
+Iteration: 6360000000
+Iteration: 6370000000
+Iteration: 6380000000
+Iteration: 6390000000
+Iteration: 6400000000
+State dump:
+STATE DUMP
+  Low:  113922298869
+  High: 292220627490
+  Flip flops: 110111101110010010100100000001100001111001101111
+  Conjunctions:
+    * 01100101
+    * 111011011
+    * 011010011
+    * 1100111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6410000000
+Iteration: 6420000000
+Iteration: 6430000000
+Iteration: 6440000000
+Iteration: 6450000000
+Iteration: 6460000000
+Iteration: 6470000000
+Iteration: 6480000000
+Iteration: 6490000000
+Iteration: 6500000000
+State dump:
+STATE DUMP
+  Low:  115702334810
+  High: 296786574831
+  Flip flops: 100000111000110110010011101001000000111101010101
+  Conjunctions:
+    * 00101011
+    * 011101101
+    * 101001011
+    * 1000010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6510000000
+Iteration: 6520000000
+Iteration: 6530000000
+Iteration: 6540000000
+Iteration: 6550000000
+Iteration: 6560000000
+Iteration: 6570000000
+Iteration: 6580000000
+Iteration: 6590000000
+Iteration: 6600000000
+State dump:
+STATE DUMP
+  Low:  117482370730
+  High: 301352522129
+  Flip flops: 110001111001010001011010000000011010000001000100
+  Conjunctions:
+    * 00110001
+    * 111100001
+    * 100100000
+    * 1010000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6610000000
+Iteration: 6620000000
+Iteration: 6630000000
+Iteration: 6640000000
+Iteration: 6650000000
+Iteration: 6660000000
+Iteration: 6670000000
+Iteration: 6680000000
+Iteration: 6690000000
+Iteration: 6700000000
+State dump:
+STATE DUMP
+  Low:  119262406634
+  High: 305918469405
+  Flip flops: 011110111111110000010001101000101111000110101000
+  Conjunctions:
+    * 11111010
+    * 011110110
+    * 110001100
+    * 0100100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6710000000
+Iteration: 6720000000
+Iteration: 6730000000
+Iteration: 6740000000
+Iteration: 6750000000
+Iteration: 6760000000
+Iteration: 6770000000
+Iteration: 6780000000
+Iteration: 6790000000
+Iteration: 6800000000
+State dump:
+STATE DUMP
+  Low:  121042442557
+  High: 310484416723
+  Flip flops: 100011110110010011111010010010110111011001010000
+  Conjunctions:
+    * 00000001
+    * 111111000
+    * 111110100
+    * 1111110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6810000000
+Iteration: 6820000000
+Iteration: 6830000000
+Iteration: 6840000000
+Iteration: 6850000000
+Iteration: 6860000000
+Iteration: 6870000000
+Iteration: 6880000000
+Iteration: 6890000000
+Iteration: 6900000000
+State dump:
+STATE DUMP
+  Low:  122822478482
+  High: 315050364029
+  Flip flops: 001110000000101001010001011011110110111100101110
+  Conjunctions:
+    * 11001010
+    * 000111111
+    * 000100110
+    * 0001011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 6910000000
+Iteration: 6920000000
+Iteration: 6930000000
+Iteration: 6940000000
+Iteration: 6950000000
+Iteration: 6960000000
+Iteration: 6970000000
+Iteration: 6980000000
+Iteration: 6990000000
+Iteration: 7000000000
+State dump:
+STATE DUMP
+  Low:  124602514399
+  High: 319616311327
+  Flip flops: 011111000011010000001000110001001000110010111110
+  Conjunctions:
+    * 11010000
+    * 101000011
+    * 010001010
+    * 0010011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7010000000
+Iteration: 7020000000
+Iteration: 7030000000
+Iteration: 7040000000
+Iteration: 7050000000
+Iteration: 7060000000
+Iteration: 7070000000
+Iteration: 7080000000
+Iteration: 7090000000
+Iteration: 7100000000
+State dump:
+STATE DUMP
+  Low:  126382550317
+  High: 324182258630
+  Flip flops: 001000000111010011100111011001100001110100010110
+  Conjunctions:
+    * 10010110
+    * 001010101
+    * 011110010
+    * 0100111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7110000000
+Iteration: 7120000000
+Iteration: 7130000000
+Iteration: 7140000000
+Iteration: 7150000000
+Iteration: 7160000000
+Iteration: 7170000000
+Iteration: 7180000000
+Iteration: 7190000000
+Iteration: 7200000000
+State dump:
+STATE DUMP
+  Low:  128162586247
+  High: 328748205954
+  Flip flops: 011001011100010111001001101100110011101000100010
+  Conjunctions:
+    * 10100010
+    * 101011010
+    * 101101010
+    * 0110101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7210000000
+Iteration: 7220000000
+Iteration: 7230000000
+Iteration: 7240000000
+Iteration: 7250000000
+Iteration: 7260000000
+Iteration: 7270000000
+Iteration: 7280000000
+Iteration: 7290000000
+Iteration: 7300000000
+State dump:
+STATE DUMP
+  Low:  129942622176
+  High: 333314153271
+  Flip flops: 111010011010110000010000000100000111001110011011
+  Conjunctions:
+    * 10101000
+    * 001101100
+    * 110000101
+    * 1000101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7310000000
+Iteration: 7320000000
+Iteration: 7330000000
+Iteration: 7340000000
+Iteration: 7350000000
+Iteration: 7360000000
+Iteration: 7370000000
+Iteration: 7380000000
+Iteration: 7390000000
+Iteration: 7400000000
+State dump:
+STATE DUMP
+  Low:  131722658093
+  High: 337880100575
+  Flip flops: 100111011110110001010111101100011110000000010001
+  Conjunctions:
+    * 01101110
+    * 101100000
+    * 110101101
+    * 1100000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7410000000
+Iteration: 7420000000
+Iteration: 7430000000
+Iteration: 7440000000
+Iteration: 7450000000
+Iteration: 7460000000
+Iteration: 7470000000
+Iteration: 7480000000
+Iteration: 7490000000
+Iteration: 7500000000
+State dump:
+STATE DUMP
+  Low:  133502693991
+  High: 342446047843
+  Flip flops: 100101101101001110111110100111011110010100101101
+  Conjunctions:
+    * 01110100
+    * 110100111
+    * 001011101
+    * 1111010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7510000000
+Iteration: 7520000000
+Iteration: 7530000000
+Iteration: 7540000000
+Iteration: 7550000000
+Iteration: 7560000000
+Iteration: 7570000000
+Iteration: 7580000000
+Iteration: 7590000000
+Iteration: 7600000000
+State dump:
+STATE DUMP
+  Low:  135282729924
+  High: 347011995167
+  Flip flops: 010010101011101000010101001111100011111010010101
+  Conjunctions:
+    * 00111110
+    * 010111001
+    * 010000011
+    * 0001110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7610000000
+Iteration: 7620000000
+Iteration: 7630000000
+Iteration: 7640000000
+Iteration: 7650000000
+Iteration: 7660000000
+Iteration: 7670000000
+Iteration: 7680000000
+Iteration: 7690000000
+Iteration: 7700000000
+State dump:
+STATE DUMP
+  Low:  137062765839
+  High: 351577942463
+  Flip flops: 100111100010001001011110110110111001111100100001
+  Conjunctions:
+    * 01000100
+    * 110111110
+    * 010101011
+    * 1011110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7710000000
+Iteration: 7720000000
+Iteration: 7730000000
+Iteration: 7740000000
+Iteration: 7750000000
+Iteration: 7760000000
+Iteration: 7770000000
+Iteration: 7780000000
+Iteration: 7790000000
+Iteration: 7800000000
+State dump:
+STATE DUMP
+  Low:  138842801784
+  High: 356143889815
+  Flip flops: 000000110100110110100101011110011000110000101011
+  Conjunctions:
+    * 00001110
+    * 011000010
+    * 101010011
+    * 0101011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7810000000
+Iteration: 7820000000
+Iteration: 7830000000
+Iteration: 7840000000
+Iteration: 7850000000
+Iteration: 7860000000
+Iteration: 7870000000
+Iteration: 7880000000
+Iteration: 7890000000
+Iteration: 7900000000
+State dump:
+STATE DUMP
+  Low:  140622837681
+  High: 360709837076
+  Flip flops: 010001110101010111101100110100101110100110011011
+  Conjunctions:
+    * 00010100
+    * 111010100
+    * 101111111
+    * 0110001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 7910000000
+Iteration: 7920000000
+Iteration: 7930000000
+Iteration: 7940000000
+Iteration: 7950000000
+Iteration: 7960000000
+Iteration: 7970000000
+Iteration: 7980000000
+Iteration: 7990000000
+Iteration: 8000000000
+State dump:
+STATE DUMP
+  Low:  142402873601
+  High: 365275784375
+  Flip flops: 001100010011101001000011001101100111001011100110
+  Conjunctions:
+    * 11011011
+    * 000011011
+    * 110100100
+    * 0000101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8010000000
+Iteration: 8020000000
+Iteration: 8030000000
+Iteration: 8040000000
+Iteration: 8050000000
+Iteration: 8060000000
+Iteration: 8070000000
+Iteration: 8080000000
+Iteration: 8090000000
+Iteration: 8100000000
+State dump:
+STATE DUMP
+  Low:  144182909534
+  High: 369841731711
+  Flip flops: 000001001000001110101101000011110111011110011110
+  Conjunctions:
+    * 00100110
+    * 100011101
+    * 001010100
+    * 0011111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8110000000
+Iteration: 8120000000
+Iteration: 8130000000
+Iteration: 8140000000
+Iteration: 8150000000
+Iteration: 8160000000
+Iteration: 8170000000
+Iteration: 8180000000
+Iteration: 8190000000
+Iteration: 8200000000
+State dump:
+STATE DUMP
+  Low:  145962945443
+  High: 374407678988
+  Flip flops: 111110001100101111110011111011001111010001010110
+  Conjunctions:
+    * 11101011
+    * 000100001
+    * 001111100
+    * 1101111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8210000000
+Iteration: 8220000000
+Iteration: 8230000000
+Iteration: 8240000000
+Iteration: 8250000000
+Iteration: 8260000000
+Iteration: 8270000000
+Iteration: 8280000000
+Iteration: 8290000000
+Iteration: 8300000000
+State dump:
+STATE DUMP
+  Low:  147742981390
+  High: 378973626348
+  Flip flops: 101111001011001001010010010000010000100111100000
+  Conjunctions:
+    * 11110001
+    * 100100110
+    * 010100010
+    * 1000000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8310000000
+Iteration: 8320000000
+Iteration: 8330000000
+Iteration: 8340000000
+Iteration: 8350000000
+Iteration: 8360000000
+Iteration: 8370000000
+Iteration: 8380000000
+Iteration: 8390000000
+Iteration: 8400000000
+State dump:
+STATE DUMP
+  Low:  149523017296
+  High: 383539573627
+  Flip flops: 101000011001101100111001111010110000111011011000
+  Conjunctions:
+    * 10111011
+    * 000111000
+    * 100011010
+    * 1011010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8410000000
+Iteration: 8420000000
+Iteration: 8430000000
+Iteration: 8440000000
+Iteration: 8450000000
+Iteration: 8460000000
+Iteration: 8470000000
+Iteration: 8480000000
+Iteration: 8490000000
+Iteration: 8500000000
+State dump:
+STATE DUMP
+  Low:  151303053218
+  High: 388105520941
+  Flip flops: 011110110100000111110011000010101001111101110100
+  Conjunctions:
+    * 11000011
+    * 010111111
+    * 101110010
+    * 0101110
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8510000000
+Iteration: 8520000000
+Iteration: 8530000000
+Iteration: 8540000000
+Iteration: 8550000000
+Iteration: 8560000000
+Iteration: 8570000000
+Iteration: 8580000000
+Iteration: 8590000000
+Iteration: 8600000000
+State dump:
+STATE DUMP
+  Low:  153083089120
+  High: 392671468207
+  Flip flops: 101011110110100110111010101001111111100011100100
+  Conjunctions:
+    * 10001001
+    * 110110011
+    * 111011110
+    * 1110100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8610000000
+Iteration: 8620000000
+Iteration: 8630000000
+Iteration: 8640000000
+Iteration: 8650000000
+Iteration: 8660000000
+Iteration: 8670000000
+Iteration: 8680000000
+Iteration: 8690000000
+Iteration: 8700000000
+State dump:
+STATE DUMP
+  Low:  154863125077
+  High: 397237415577
+  Flip flops: 001000100001001100000001100001011110000111011111
+  Conjunctions:
+    * 10010011
+    * 010000101
+    * 000001101
+    * 0000001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8710000000
+Iteration: 8720000000
+Iteration: 8730000000
+Iteration: 8740000000
+Iteration: 8750000000
+Iteration: 8760000000
+Iteration: 8770000000
+Iteration: 8780000000
+Iteration: 8790000000
+Iteration: 8800000000
+State dump:
+STATE DUMP
+  Low:  156643160980
+  High: 401803362855
+  Flip flops: 010101100001101111101000001000100100001001101011
+  Conjunctions:
+    * 01011001
+    * 110011010
+    * 001110101
+    * 0010001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8810000000
+Iteration: 8820000000
+Iteration: 8830000000
+Iteration: 8840000000
+Iteration: 8850000000
+Iteration: 8860000000
+Iteration: 8870000000
+Iteration: 8880000000
+Iteration: 8890000000
+Iteration: 8900000000
+State dump:
+STATE DUMP
+  Low:  158423196908
+  High: 406369310172
+  Flip flops: 000110101110001110100001111100111001001111000011
+  Conjunctions:
+    * 01100011
+    * 010011100
+    * 011011001
+    * 0100101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 8910000000
+Iteration: 8920000000
+Iteration: 8930000000
+Iteration: 8940000000
+Iteration: 8950000000
+Iteration: 8960000000
+Iteration: 8970000000
+Iteration: 8980000000
+Iteration: 8990000000
+Iteration: 9000000000
+State dump:
+STATE DUMP
+  Low:  160203232831
+  High: 410935257489
+  Flip flops: 000111111100101100011000010110001001110011011011
+  Conjunctions:
+    * 01101001
+    * 110100000
+    * 100000011
+    * 0111111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9010000000
+Iteration: 9020000000
+Iteration: 9030000000
+Iteration: 9040000000
+Iteration: 9050000000
+Iteration: 9060000000
+Iteration: 9070000000
+Iteration: 9080000000
+Iteration: 9090000000
+Iteration: 9100000000
+State dump:
+STATE DUMP
+  Low:  161983268732
+  High: 415501204750
+  Flip flops: 110010011000100101110111111111000001110101100111
+  Conjunctions:
+    * 00101111
+    * 000100111
+    * 100111011
+    * 1001111
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9110000000
+Iteration: 9120000000
+Iteration: 9130000000
+Iteration: 9140000000
+Iteration: 9150000000
+Iteration: 9160000000
+Iteration: 9170000000
+Iteration: 9180000000
+Iteration: 9190000000
+Iteration: 9200000000
+State dump:
+STATE DUMP
+  Low:  163763304660
+  High: 420067152079
+  Flip flops: 010011011111000110110110010111010100111011001101
+  Conjunctions:
+    * 00110101
+    * 100101001
+    * 111010111
+    * 0101010
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9210000000
+Iteration: 9220000000
+Iteration: 9230000000
+Iteration: 9240000000
+Iteration: 9250000000
+Iteration: 9260000000
+Iteration: 9270000000
+Iteration: 9280000000
+Iteration: 9290000000
+Iteration: 9300000000
+State dump:
+STATE DUMP
+  Low:  165543340613
+  High: 424633099431
+  Flip flops: 100000000100000100011000001101111010001101111000
+  Conjunctions:
+    * 00000001
+    * 000111110
+    * 000000000
+    * 1110000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9310000000
+Iteration: 9320000000
+Iteration: 9330000000
+Iteration: 9340000000
+Iteration: 9350000000
+Iteration: 9360000000
+Iteration: 9370000000
+Iteration: 9380000000
+Iteration: 9390000000
+Iteration: 9400000000
+State dump:
+STATE DUMP
+  Low:  167323376535
+  High: 429199046740
+  Flip flops: 010001000000001101000111100110001111000011100000
+  Conjunctions:
+    * 00000111
+    * 100000010
+    * 000101100
+    * 0001100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9410000000
+Iteration: 9420000000
+Iteration: 9430000000
+Iteration: 9440000000
+Iteration: 9450000000
+Iteration: 9460000000
+Iteration: 9470000000
+Iteration: 9480000000
+Iteration: 9490000000
+Iteration: 9500000000
+State dump:
+STATE DUMP
+  Low:  169103412437
+  High: 433764994007
+  Flip flops: 101110000010101110101110001100010101000100010000
+  Conjunctions:
+    * 11001100
+    * 000000100
+    * 011010100
+    * 1010100
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9510000000
+Iteration: 9520000000
+Iteration: 9530000000
+Iteration: 9540000000
+Iteration: 9550000000
+Iteration: 9560000000
+Iteration: 9570000000
+Iteration: 9580000000
+Iteration: 9590000000
+Iteration: 9600000000
+State dump:
+STATE DUMP
+  Low:  170883448362
+  High: 438330941339
+  Flip flops: 001100110101000010000101100100010100101000111110
+  Conjunctions:
+    * 11010110
+    * 010001011
+    * 101001110
+    * 0100001
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9610000000
+Iteration: 9620000000
+Iteration: 9630000000
+Iteration: 9640000000
+Iteration: 9650000000
+Iteration: 9660000000
+Iteration: 9670000000
+Iteration: 9680000000
+Iteration: 9690000000
+Iteration: 9700000000
+State dump:
+STATE DUMP
+  Low:  172663484258
+  High: 442896888592
+  Flip flops: 011001110101100101001100001111101000111110000110
+  Conjunctions:
+    * 10011100
+    * 110011101
+    * 100100010
+    * 0111011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9710000000
+Iteration: 9720000000
+Iteration: 9730000000
+Iteration: 9740000000
+Iteration: 9750000000
+Iteration: 9760000000
+Iteration: 9770000000
+Iteration: 9780000000
+Iteration: 9790000000
+Iteration: 9800000000
+State dump:
+STATE DUMP
+  Low:  174443520195
+  High: 447462835925
+  Flip flops: 111110111010000100100101110011110000110000011110
+  Conjunctions:
+    * 11100110
+    * 010010001
+    * 110011010
+    * 1001011
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9810000000
+Iteration: 9820000000
+Iteration: 9830000000
+Iteration: 9840000000
+Iteration: 9850000000
+Iteration: 9860000000
+Iteration: 9870000000
+Iteration: 9880000000
+Iteration: 9890000000
+Iteration: 9900000000
+State dump:
+STATE DUMP
+  Low:  176223556124
+  High: 452028783254
+  Flip flops: 001011101000100010011100111010000011000100101011
+  Conjunctions:
+    * 10101100
+    * 110100110
+    * 001001001
+    * 0011101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 9910000000
+Iteration: 9920000000
+Iteration: 9930000000
+Iteration: 9940000000
+Iteration: 9950000000
+Iteration: 9960000000
+Iteration: 9970000000
+Iteration: 9980000000
+Iteration: 9990000000
+Iteration: 10000000000
+State dump:
+STATE DUMP
+  Low:  178003592044
+  High: 456594730553
+  Flip flops: 111000101101000101010011010010100111001010000011
+  Conjunctions:
+    * 10110010
+    * 010111000
+    * 000100101
+    * 1101101
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 10010000000
+Iteration: 10020000000
+Iteration: 10030000000
+Iteration: 10040000000
+Iteration: 10050000000
+Iteration: 10060000000
+Iteration: 10070000000
+Iteration: 10080000000
+Iteration: 10090000000
+Iteration: 10100000000
+State dump:
+STATE DUMP
+  Low:  179783627947
+  High: 461160677823
+  Flip flops: 010111001011111100010010111010011110001000111101
+  Conjunctions:
+    * 01111000
+    * 101101011
+    * 010001101
+    * 0001000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 10110000000
+Iteration: 10120000000
+Iteration: 10130000000
+Iteration: 10140000000
+Iteration: 10150000000
+Iteration: 10160000000
+Iteration: 10170000000
+Iteration: 10180000000
+Iteration: 10190000000
+Iteration: 10200000000
+State dump:
+STATE DUMP
+  Low:  181563663878
+  High: 465726625150
+  Flip flops: 101000000010011111111100000001110000001110001101
+  Conjunctions:
+    * 10000100
+    * 001111101
+    * 011110001
+    * 1010000
+    * 1
+    * 0000
+    * 1
+    * 1
+    * 1
+
+Iteration: 10210000000
+Iteration: 10220000000
+Iteration: 10230000000
+Iteration: 10240000000
+Iteration: 10250000000
